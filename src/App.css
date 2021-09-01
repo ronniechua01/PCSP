@@ -2,6 +2,52 @@
   text-align: center;
 }
 
+/* Report Button */
+.reportBtn {
+  background-color: #E56660 !important;
+  border: #E56660 !important;
+}
+
+/* Submit Button */
+.submitBtn {
+  background-color: #E56660 !important;
+  border: #E56660 !important;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+
+.customCard {
+  background-color: #E56660 !important;
+  border: #E56660 !important;
+}
+
+.cardTitle{
+  color: white !important;
+}
+
+.formBody {
+  padding-top: 10px;
+}
+
+.mb-3 {
+  font-weight:600;
+}
+
+.reportForm {
+  padding-top: 15px;
+}
+
+.breadCrumbs {
+  margin-left: 20px;
+}
+
+.breadCrumbs-item {
+  text-decoration: none;
+  color: pink;
+  font-size: small; 
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +81,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 500px;
 }
