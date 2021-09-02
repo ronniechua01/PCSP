@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const ReportPage = () => {
     return (
         <div className="reportForm">
+
             {/* Placeholder for the input fields and the Checkboxes */}
             <nav className="breadCrumbs" aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -25,13 +26,13 @@ const ReportPage = () => {
                     <Form>
                         <Form.Group className="mb-3" controlId="formGridAddress1">
                             <Form.Label>Name</Form.Label>
+                            <input type="text" value="" id="name" />
                             <Form.Control placeholder="Name..." />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formGridAddress1">
                             <Form.Label>Organization</Form.Label>
                             <Form.Control placeholder="Organization..." />
                         </Form.Group>
-
                         <Form.Group className="mb-3" controlId="formGridAddress1">
                             <Form.Label>Address</Form.Label>
                             <Form.Control placeholder="Address..." />
@@ -794,14 +795,11 @@ const ReportPage = () => {
                             </div>
                         </Form.Group>
 
-                            {/* Submit Button */}
-                            <Button className="submitBtn" type="submit">
-                                Submit
-                        </Button>
+                        {/* Submit Button */}
+                        <button type="submit" classname="submitBtn">Submit</button>
                     </Form>
                 </Row>
             </Container>
-
         </div>
     )
 }

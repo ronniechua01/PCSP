@@ -2,28 +2,12 @@
   text-align: center;
 }
 
-/* Report Button */
-.reportBtn {
-  background-color: #E56660 !important;
-  border: #E56660 !important;
-}
-
 /* Submit Button */
 .submitBtn {
   background-color: #E56660 !important;
   border: #E56660 !important;
   color: #ffffff;
   margin-top: 30px;
-}
-
-
-.customCard {
-  background-color: #E56660 !important;
-  border: #E56660 !important;
-}
-
-.cardTitle{
-  color: white !important;
 }
 
 .formBody {
@@ -83,6 +67,5 @@
   }
 }
 
-img {
-  height: 500px;
-}
+
+

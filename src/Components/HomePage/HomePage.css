@@ -1,0 +1,28 @@
+.Video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Link {
+    font-size: 28px;
+    text-decoration: none;
+    color: black !important;
+    font-family: "Raleway", sans-serif;
+}
+
+.Highlight {
+    color: #E56660 !important;
+}
+
+/* Infographics image */
+.Infographics {
+    height: 500px;
+}
+
+/* News image */
+.News {
+    height: 800px;
+    width: 400px;
+}

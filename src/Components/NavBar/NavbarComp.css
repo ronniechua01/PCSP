@@ -1,0 +1,25 @@
+/* to stretch the width */
+.NavbarComp {
+  background-color: #011E2C !important;
+}
+
+/* .d-flex{
+  width: 100%;
+  position: top right;
+  display: flex;
+}
+
+.mr-2{
+  width: 50%;
+  position: top right;
+  display: flex;
+} */
+
+/* Report Button */
+.ReportButton {
+  background-color: #E56660 !important;
+  border: #E56660 !important;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
